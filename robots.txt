@@ -1,0 +1,14 @@
+# Inter Storage Robots.txt
+# تحسين الأرشفة لبراند Inter Storage
+
+User-agent: *
+Allow: /
+
+# استثناء ملفات الإعدادات والبيئة الحساسة من الأرشفة
+Disallow: /.env
+Disallow: /node_modules/
+Disallow: /package.json
+
+# رابط خريطة الموقع لسرعة الزحف
+Sitemap: https://inter--storage.com/sitemap.xml
+
